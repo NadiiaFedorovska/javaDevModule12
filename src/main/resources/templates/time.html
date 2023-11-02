@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Time Template</title>
+</head>
+    <body>
+        <h1>Current Time:  </h1>
+        <table>
+            <tr>
+                <td th:text="${current}" ></td>
+                <td th:text="${zone}"></td>
+            </tr>
+        </table>
+    </body>
+</html>
